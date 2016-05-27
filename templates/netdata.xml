@@ -1,13 +1,6 @@
 <?xml version="1.0"?>
-<Container version="2">
-  <Beta>False</Beta>
+<Container>
   <Category>Tools:System</Category>
-  <Date>2016-05-27</Date>
-  <Changes>
-[center][font size=4]Change Log[/font][/center]
-[b]27.MAY.2016:[/b]First version[br]
-  </Changes>
-
   <Name>Netdata</Name>
   <Repository>titpetric/netdata</Repository>
   <Registry>https://hub.docker.com/r/titpetric/netdata/</Registry>
@@ -18,20 +11,20 @@
   <Privileged>false</Privileged>
   <Support/>
   <Overview>
-    Real-time performance monitoring, done right!
-- real-time, per second updates, snappy refreshes!
-- 300+ charts out of the box, 2000+ metrics monitored!
-- zero configuration, zero maintenance, zero dependencies!
-Live demo: http://netdata.firehol.org
+Real-time performance monitoring, done right![br]
+- real-time, per second updates, snappy refreshes![br]
+- 300+ charts out of the box, 2000+ metrics monitored![br]
+- zero configuration, zero maintenance, zero dependencies![br]
+Live demo: http://netdata.firehol.org[br]
   </Overview>
   <WebUI> http://[IP]:[PORT:19999]</WebUI>
   <ExtraParams>--cap-add SYS_PTRACE</ExtraParams>
-  <DateInstalled></DateInstalled>
-  <Description>Real-time performance monitoring, done right!
-- real-time, per second updates, snappy refreshes!
-- 300+ charts out of the box, 2000+ metrics monitored!
-- zero configuration, zero maintenance, zero dependencies!
-Live demo: http://netdata.firehol.org
+  <Description>
+Real-time performance monitoring, done right! [br]
+- real-time, per second updates, snappy refreshes![br]
+- 300+ charts out of the box, 2000+ metrics monitored![br]
+- zero configuration, zero maintenance, zero dependencies![br]
+Live demo: http://netdata.firehol.org[br]
   </Description>
   <Networking>
     <Mode>host</Mode>
