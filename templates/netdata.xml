@@ -9,7 +9,7 @@
   <Overview>Show some beautiful stats</Overview>
   <Category>Tools:System</Category>
   <WebUI> http://[IP]:[PORT:19999]</WebUI>
-  <TemplateURL>https://github.com/Data-Monkey/unRAIDtemplates/netdata.xml</TemplateURL>
+  <TemplateURL>https://github.com/Data-Monkey/unRAID/templates/netdata.xml</TemplateURL>
   <Icon>https://github.com/Data-Monkey/unRAID/templates/logos/netstats.jpg</Icon>
   <ExtraParams>--cap-add SYS_PTRACE</ExtraParams>
   <DateInstalled></DateInstalled>
