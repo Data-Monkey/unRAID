@@ -1,28 +1,41 @@
 <?xml version="1.0"?>
 <Container version="2">
+  <Beta>False</Beta>
+  <Category>Tools:System</Category>
+  <Date>2016-05-27</Date>
+  <Changes>
+[center][font size=4]Change Log[/font][/center]
+[b]27.MAY.2016:[/b]First version[br]
+  </Changes>
+
   <Name>Netdata</Name>
   <Repository>titpetric/netdata</Repository>
   <Registry>https://hub.docker.com/r/titpetric/netdata/</Registry>
+  <GitHub>https://github.com/Data-Monkey/unRAID/templates/</GitHub>
+  <TemplateURL>https://github.com/Data-Monkey/unRAID/templates/netdata.xml</TemplateURL>
+  <Icon>https://github.com/Data-Monkey/unRAID/templates/logos/netdata.jpg</Icon>
   <Network>host</Network>
   <Privileged>false</Privileged>
   <Support/>
-  <Overview>Show some beautiful stats</Overview>
-  <Category>Tools:System</Category>
+  <Overview>
+    Real-time performance monitoring, done right!
+- real-time, per second updates, snappy refreshes!
+- 300+ charts out of the box, 2000+ metrics monitored!
+- zero configuration, zero maintenance, zero dependencies!
+Live demo: http://netdata.firehol.org
+  </Overview>
   <WebUI> http://[IP]:[PORT:19999]</WebUI>
-  <TemplateURL>https://github.com/Data-Monkey/unRAID/templates/netdata.xml</TemplateURL>
-  <Icon>https://github.com/Data-Monkey/unRAID/templates/logos/netdata.jpg</Icon>
   <ExtraParams>--cap-add SYS_PTRACE</ExtraParams>
   <DateInstalled></DateInstalled>
-  <Description></Description>
+  <Description>Real-time performance monitoring, done right!
+- real-time, per second updates, snappy refreshes!
+- 300+ charts out of the box, 2000+ metrics monitored!
+- zero configuration, zero maintenance, zero dependencies!
+Live demo: http://netdata.firehol.org
+  </Description>
   <Networking>
     <Mode>host</Mode>
-    <Publish>
-      <Port>
-        <HostPort>19999</HostPort>
-        <ContainerPort>19999</ContainerPort>
-        <Protocol>tcp</Protocol>
-      </Port>
-    </Publish>
+    <Publish/>
   </Networking>
   <Data>
     <Volume>
