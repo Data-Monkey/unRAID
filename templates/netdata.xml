@@ -10,7 +10,7 @@
   <Category>Backup:</Category>
   <WebUI> http://[IP]:[PORT:19999]</WebUI>
   <TemplateURL>https://raw.githubusercontent.com/gfjardim/docker-containers/templates/gfjardim/CrashPlan.xml</TemplateURL>
-  <Icon></Icon>
+  <Icon>https://github.com/Data-Monkey/unRAID/templates/logos/netstats.jpg</Icon>
   <ExtraParams/>
   <DateInstalled></DateInstalled>
   <Description></Description>
