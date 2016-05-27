@@ -3,22 +3,22 @@
   <Name>Netdata</Name>
   <Repository>titpetric/netdata</Repository>
   <Registry>https://hub.docker.com/r/titpetric/netdata/</Registry>
-  <Network>Bridge</Network>
+  <Network>host</Network>
   <Privileged>false</Privileged>
   <Support/>
   <Overview>Show some beautiful stats</Overview>
-  <Category>Backup:</Category>
+  <Category>Tools:System</Category>
   <WebUI> http://[IP]:[PORT:19999]</WebUI>
-  <TemplateURL>https://raw.githubusercontent.com/gfjardim/docker-containers/templates/gfjardim/CrashPlan.xml</TemplateURL>
+  <TemplateURL>https://github.com/Data-Monkey/unRAIDtemplates/netdata.xml</TemplateURL>
   <Icon>https://github.com/Data-Monkey/unRAID/templates/logos/netstats.jpg</Icon>
-  <ExtraParams/>
+  <ExtraParams>--cap-add SYS_PTRACE</ExtraParams>
   <DateInstalled></DateInstalled>
   <Description></Description>
   <Networking>
     <Mode>host</Mode>
     <Publish>
       <Port>
-        <HostPort>19998</HostPort>
+        <HostPort>19999</HostPort>
         <ContainerPort>19999</ContainerPort>
         <Protocol>tcp</Protocol>
       </Port>
