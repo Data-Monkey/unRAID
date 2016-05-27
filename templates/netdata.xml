@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <Container version="2">
-  <Name>dulli/Netdata</Name>
+  <Name>Netdata</Name>
   <Repository>titpetric/netdata</Repository>
   <Registry>https://hub.docker.com/r/titpetric/netdata/</Registry>
   <Network>bridge</Network>
