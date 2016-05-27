@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>Netdata</Name>
+  <Repository>dulli/netdata</Repository>
+  <Registry>https://hub.docker.com/r/titpetric/netdata/</Registry>
+  <Network>host</Network>
+  <Privileged>false</Privileged>
+  <Support/>
+  <Overview>Show some beautiful stats</Overview>
+  <Category>Backup:</Category>
+  <WebUI> http://[IP]:[PORT:19999]</WebUI>
+  <TemplateURL>https://raw.githubusercontent.com/gfjardim/docker-containers/templates/gfjardim/CrashPlan.xml</TemplateURL>
+  <Icon></Icon>
+  <ExtraParams/>
+  <DateInstalled></DateInstalled>
+  <Description></Description>
+  <Networking>
+    <Mode>host</Mode>
+    <Publish>
+      <Port>
+        <HostPort>19999</HostPort>
+        <ContainerPort>19999</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+    </Publish>
+  </Networking>
+  <Data>
+    <Volume>
+      <HostDir>/proc</HostDir>
+      <ContainerDir>/host/proc</ContainerDir>
+      <Mode>ro</Mode>
+    </Volume>
+    <Volume>
+      <HostDir>/sys</HostDir>
+      <ContainerDir>/host/sys</ContainerDir>
+      <Mode>ro</Mode>
+    </Volume>
+  </Data>
+  <Environment/>
+</Container>
