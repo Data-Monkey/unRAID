@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <Container version="2">
-  <Name>Netdata</Name>
-  <Repository>dulli/netdata</Repository>
+  <Name>dulli/Netdata</Name>
+  <Repository>titpetric/netdata</Repository>
   <Registry>https://hub.docker.com/r/titpetric/netdata/</Registry>
-  <Network>host</Network>
+  <Network>bridge</Network>
   <Privileged>false</Privileged>
   <Support/>
   <Overview>Show some beautiful stats</Overview>
