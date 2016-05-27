@@ -11,11 +11,11 @@
   <Privileged>false</Privileged>
   <Support/>
   <Overview>
-Real-time performance monitoring, done right![br]
+[b]Real-time performance monitoring, done right! [/b][br]
 - real-time, per second updates, snappy refreshes![br]
 - 300+ charts out of the box, 2000+ metrics monitored![br]
 - zero configuration, zero maintenance, zero dependencies![br]
-Live demo: http://netdata.firehol.org[br]
+Live demo: [a href]http://netdata.firehol.org[/a][br]
   </Overview>
   <WebUI> http://[IP]:[PORT:19999]</WebUI>
   <ExtraParams>--cap-add SYS_PTRACE</ExtraParams>
@@ -24,7 +24,7 @@ Live demo: http://netdata.firehol.org[br]
 - real-time, per second updates, snappy refreshes![br]
 - 300+ charts out of the box, 2000+ metrics monitored![br]
 - zero configuration, zero maintenance, zero dependencies![br]
-Live demo: [url]http://netdata.firehol.org[/url][br]
+Live demo: [a href]http://netdata.firehol.org[/a][br]
   </Description>
   <Networking>
     <Mode>host</Mode>
