@@ -3,7 +3,7 @@
   <Name>Netdata</Name>
   <Repository>titpetric/netdata</Repository>
   <Registry>https://hub.docker.com/r/titpetric/netdata/</Registry>
-  <Network>bridge</Network>
+  <Network>Bridge</Network>
   <Privileged>false</Privileged>
   <Support/>
   <Overview>Show some beautiful stats</Overview>
@@ -18,7 +18,7 @@
     <Mode>host</Mode>
     <Publish>
       <Port>
-        <HostPort>19999</HostPort>
+        <HostPort>19998</HostPort>
         <ContainerPort>19999</ContainerPort>
         <Protocol>tcp</Protocol>
       </Port>
